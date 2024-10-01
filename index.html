@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escuela de Idiomas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Cursos de Idiomas</h1>
+    </header>
+    
+    <section>
+        <h2>Inglés</h2>
+        <ul>
+            <li>Básico</li>
+            <li>Intermedio</li>
+            <li>Avanzado</li>
+        </ul>
+        
+        <h2>Francés</h2>
+        <ul>
+            <li>Básico</li>
+            <li>Intermedio</li>
+            <li>Avanzado</li>
+        </ul>
+
+        <h2>Alemán</h2>
+        <ul>
+            <li>Básico</li>
+            <li>Intermedio</li>
+            <li>Avanzado</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Formulario de Inscripción</h2>
+        <form action="#" method="post">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="correo">Correo Electrónico:</label>
+            <input type="email" id="correo" name="correo" required>
+
+            <label for="telefono">Teléfono:</label>
+            <input type="tel" id="telefono" name="telefono" required>
+
+            <label for="idioma">Idioma:</label>
+            <select id="idioma" name="idioma" required>
+                <option value="">Seleccione un idioma</option>
+                <option value="ingles">Inglés</option>
+                <option value="frances">Francés</option>
+                <option value="aleman">Alemán</option>
+            </select>
+
+            <label for="nivel">Nivel:</label>
+            <select id="nivel" name="nivel" required>
+                <option value="">Seleccione un nivel</option>
+                <option value="basico">Básico</option>
+                <option value="intermedio">Intermedio</option>
+                <option value="avanzado">Avanzado</option>
+            </select>
+
+            <label for="fecha">Fecha de Inicio:</label>
+            <input type="date" id="fecha" name="fecha" required>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2020 Escuela de Idiomas</p>
+    </footer>
+</body>
+</html>
